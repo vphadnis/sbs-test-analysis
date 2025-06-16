@@ -1,10 +1,10 @@
 # Screen Information
 experiment:
-  id: ""  # Experiment identifier
-  notebook_entries: ""  # Links or references to lab notebook entries
+  id: "PerturbView optimization 25.27"  # Experiment identifier
+  notebook_entries: "See entry 25.27"  # Links or references to lab notebook entries
   dates: 
-    start: ""
-    end: ""
+    start: "June 2025"
+    end: "June 2025"
 
 # Cellular Conditions
 cellular:
@@ -13,17 +13,17 @@ cellular:
   treatment:
     summary: ""  # Brief description of treatment
     details: ""  # Detailed protocol or conditions
-  plates: ""  # Number of plates
-  wells_per_plate: ""  # Number of wells per plate
+  plates: "1"  # Number of plates
+  wells_per_plate: "24"  # Number of wells per plate
 
 # Sequencing by Synthesis (SBS)
 sbs:
-  cycles: ""  # Number of cycles
-  cycle_order: ""  # Order of cycles
-  background_channel: ""  # Suggested background channel
+  cycles: "4"  # Number of cycles
+  cycle_order: "GTAC"  # Order of cycles
+  background_channel: "C, cycle 4"  # Suggested background channel
   library_details:
-    number_of_genes: ""
-    guides_per_gene: ""
+    number_of_genes: "4"
+    guides_per_gene: "1"
     other_information: ""
 
 # Phenotype (PH) Steps
@@ -54,7 +54,7 @@ phenotype:
 
 # Data Generated
 data:
-  storage_format: ""  # e.g., .nd2, .tiff
-  location: "/lab/.."  # Base path for data storage
+  storage_format: ".nd2"  # e.g., .nd2, .tiff
+  location: "/~/sbs-test-data/"  # Base path for data storage
   
   notes: ""  # Any additional notes about the data or file naming conventions
