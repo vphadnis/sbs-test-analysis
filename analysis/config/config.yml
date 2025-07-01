@@ -53,6 +53,7 @@ sbs:
   barcode_col: sgRNA
   prefix_col: null
   error_correct: false
+  sort_calls: count
   mode: null
   peak_width: 5
   nuclei_diameter: 8.136857890256438
